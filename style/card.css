@@ -1,0 +1,59 @@
+.card-wraper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 290px);
+  align-items: start;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin: 60px;
+  padding-left: 0;   
+}
+
+.card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  margin: 5px;
+}
+
+.card-done{
+  background-color: rgb(229, 229, 229) !important;
+}
+.card-fool {
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+}
+.card-delete {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+}
+.card-delete:before,
+.card-delete:after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  right: 2px;
+  width: 20px;
+  height: 3px;
+  background: gray;
+}
+.card-delete:before {
+  transform: rotate(45deg);
+}
+.card-delete:after {
+  transform: rotate(-45deg);
+}
+
+.foolCard {
+  display: none;
+}
+.hide {
+  display: none;
+}

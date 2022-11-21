@@ -1,0 +1,115 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  max-width:  15%;
+  margin: 0 auto;
+  padding: 30px 0;  
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  outline: 0;
+  position: relative;
+}
+.loginForm-email {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.loginForm-email:hover {
+  background-color: azure;
+}
+.loginForm-btnSub {
+  width: 100px;
+  cursor: pointer;
+  margin: 5px auto;
+}
+.loginForm-btnExit {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  width: 24px;
+  height: 24px;
+}
+.loginForm-btnExit:before,
+.loginForm-btnExit:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: -2px;
+  width: 24px;
+  height: 4px;
+  background: gray;
+}
+.loginForm-btnExit:before {
+  transform: rotate(45deg);
+}
+.loginForm-btnExit:after {
+  transform: rotate(-45deg);
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  padding: 30px 0;
+  border: 1px solid;
+  border-radius: 10px;
+  position: absolute;
+  background-color: aliceblue;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 26%;
+}
+.loginForm-email {
+  padding: 5px;
+  width: 80%;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.loginForm-email:hover {
+  background-color: azure;
+}
+.loginForm-btnSub {
+  width: 100px;
+  cursor: pointer;
+  margin: 5px auto;
+  margin-top: 5px;
+  background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+  border: 1px solid #e5a900;
+  color: #4e4d4b;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.loginForm-btnSub:hover {
+  background: linear-gradient(#74d1de 5%, #0495bd 100%);
+}
+
+.loginForm-btnExit {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  width: 24px;
+  height: 24px;
+}
+.loginForm-btnExit:before,
+.loginForm-btnExit:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: -2px;
+  width: 24px;
+  height: 4px;
+  background: gray;
+}
+.loginForm-btnExit:before {
+  transform: rotate(45deg);
+}
+.loginForm-btnExit:after {
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,17 @@
+.startText {
+  font-size: 32px;
+  color: brown;
+  text-align: center;
+}
+
+#filter-title,
+.filter-select {
+  color: #000;
+  border: #cdd9ed;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#filter-title::placeholder {
+  color: #000;
+}

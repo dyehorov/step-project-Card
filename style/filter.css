@@ -1,0 +1,35 @@
+.filter-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-block {
+  width: 47%;
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+  background-color: #add8e6;
+  border-radius: 5px;
+  padding: 5px 10px;
+  gap: 10px;
+}
+
+.filter-btn {
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: none;
+  margin-left: 35px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #468bf6;
+  background-origin: border-box;
+}
+
+#filter-title {
+  width: 20%;
+}
+
+.hidden {
+  display: none !important;
+}

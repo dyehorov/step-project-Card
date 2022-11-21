@@ -1,0 +1,37 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(21, 53, 103, 0.3);
+}
+.header-container-logo {
+  width: 200px;
+  background-color: inherit;
+  margin-left: 10px;
+}
+.header-container--button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: lightblue;
+  cursor: pointer;
+  margin-right: 10px;
+  border: none;
+}
+.header-container--button:hover {
+  background-color: darkcyan;
+}
+.header-container--button-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+.header-container--buttonOut {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: rgb(242, 115, 60);
+  cursor: pointer;
+  margin-right: 10px;
+  border: none;
+}
